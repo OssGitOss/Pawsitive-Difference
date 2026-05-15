@@ -1,0 +1,457 @@
+/* COLOR PALETTE */
+
+/*
+Navy: #16324f
+Teal: #2ca6a4
+Cream: #f4f1ea
+Light Blue: #dbeff0
+Dark Gray: #2f2f2f
+*/
+
+/* GENERAL STYLES */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f1ea;
+    color: #2f2f2f;
+}
+
+/* HEADER */
+
+header {
+    background-color: #16324f;
+    padding: 18px 0;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.logo img {
+    width: 70px;
+    height: auto;
+    position: absolute;
+    left: 25px;
+    top: 10px;
+}
+
+/* TITLE */
+
+.logo h1 {
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+}
+
+/* NAVIGATION */
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    padding: 10px 22px;
+    border: 2px solid white;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background-color: #2ca6a4;
+    border-color: #2ca6a4;
+}
+
+.nav-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+    padding-top: 10px;
+}
+
+/* HERO SECTION */
+
+.hero-image img {
+    width: 80%;
+    max-width: 550px;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 40px;
+    padding: 70px 5%;
+    background-color: #dbeff0;
+}
+
+.hero-text h2 {
+    font-size: 3rem;
+    color: #16324f;
+    margin-bottom: 20px;
+}
+
+/* PET ADOPTION IMAGE CONTROL */
+
+.service-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* COMMUNITY SECTION SPACING IMPROVEMENTS */
+
+.community {
+    padding: 90px 0;
+    background-color: #ffffff;
+}
+
+.community img {
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto 35px auto;
+}
+
+.community h2 {
+    margin-bottom: 18px;
+    color: #16324f;
+    font-size: 2.2rem;
+}
+
+.community p {
+    max-width: 800px;
+    margin: 0 auto 25px auto;
+    line-height: 1.8;
+}
+
+/* COMMUNITY TEXT SPACING FIX */
+
+.community-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 18px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.community-text h2 {
+    margin-bottom: 0;
+}
+
+.community-text p {
+    margin: 0;
+    line-height: 1.8;
+}
+
+.secondary-button {
+    margin-top: 10px;
+}
+
+/* BUTTONS */
+
+.button {
+    display: inline-block;
+    background-color: #2ca6a4;
+    color: white;
+    padding: 14px 28px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.button:hover {
+    background-color: #16324f;
+}
+
+/* MISSION SECTION */
+
+.mission {
+    padding: 70px 0;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.mission h2 {
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+    color: #16324f;
+}
+
+/* SERVICES */
+
+.services {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding: 70px 0;
+    background-color: #f4f1ea;
+}
+
+.service-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 14px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    text-align: center;
+}
+
+.service-card h3 {
+    margin: 18px 0 10px;
+    color: #16324f;
+}
+
+/* COMMUNITY SECTION */
+
+.community {
+    padding: 70px 0;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.community-layout {
+    display: block;
+}
+
+.community img {
+    max-width: 700px;
+    margin: 0 auto 30px auto;
+}
+
+.community h2 {
+    margin-bottom: 20px;
+    color: #16324f;
+    font-size: 2.2rem;
+}
+
+.community p {
+    max-width: 850px;
+    margin: auto;
+}
+
+/* PAGE BANNER */
+
+.page-banner {
+    background-color: #2ca6a4; 
+    color: white;
+    text-align: center;
+    padding: 50px 10px;
+}
+
+.page-banner h2 {
+    font-size: 2.5rem;
+    margin-bottom: 100px;
+}
+
+.page-banner p {
+    font-size: 1.1rem;
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.7;
+}
+
+/* GET INVOLVED BANNER SPACING FIX */
+
+.page-banner h2 {
+    font-size: 2.6rem;
+    margin: 0 0 15px 0;
+}
+
+.banner-image {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    display: block;
+    margin: 10px auto 15px auto; /* controls spacing above + below */
+    border-radius: 12px;
+}
+
+.page-banner p {
+    margin: 0;
+    font-size: 1.1rem;
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.7;
+}
+
+/* TABLE */
+
+th {
+    background-color: #2ca6a4;
+    color: white;
+}
+
+/* FORM BUTTON */
+
+button {
+    margin-top: 20px;
+    background-color: #2ca6a4;
+    color: white;
+    border: none;
+    padding: 14px 24px;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #16324f;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #16324f;
+    color: white;
+    padding: 40px 0;
+}
+
+/* FOOTER LAYOUT */
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    text-align: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+footer div {
+    flex: 1;
+    min-width: 250px;
+}
+
+footer h3 {
+    margin-bottom: 14px;
+    font-size: 1.3rem;
+}
+
+/*Get Involved Page */
+
+.intro-section {
+    text-align: center;
+    padding: 60px 0;
+}
+
+.intro-section h2 {
+    color: #16324f;
+    margin-bottom: 15px;
+}
+
+.intro-section p {
+    max-width: 800px;
+    margin: auto;
+    line-height: 1.8;
+}
+
+.cards-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    padding-bottom: 60px;
+}
+
+.info-card {
+    background-color: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    text-align: center;
+}
+
+.info-card h3 {
+    color: #16324f;
+    margin-bottom: 10px;
+}
+
+.table-section {
+    padding: 60px 0;
+    text-align: center;
+}
+
+/* TABLE CENTERING + BORDERS */
+
+.table-section table {
+    width: 85%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: white;
+    border: 2px solid #16324f;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.table-section th,
+.table-section td {
+    padding: 15px;
+    border: 1px solid #16324f;
+    text-align: center;
+}
+
+.table-section th {
+    background-color: #2ca6a4;
+    color: white;
+    font-weight: 600;
+}
+
+.form-wrapper {
+    padding: 60px 0;
+}
+
+.form-card {
+    max-width: 700px;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.form-card h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #16324f;
+}
+
+/* MESSAGE BOX IMPROVEMENT */
+
+.form-card textarea {
+    width: 100%;
+    padding: 14px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-family: 'Open Sans', sans-serif;
+    resize: vertical;
+    min-height: 140px;
+    line-height: 1.6;
+    transition: 0.3s;
+}
+
+.form-card label {
+    margin-top: 14px;
+    margin-bottom: 6px;
+}
+
+.form-card input,
+.form-card select,
+.form-card textarea {
+    margin-bottom: 10px;
+}
+
+/* Focus effect */
+.form-card textarea:focus {
+    outline: none;
+    border-color: #2ca6a4;
+    box-shadow: 0 0 0 3px rgba(44, 166, 164, 0.2);
+}
